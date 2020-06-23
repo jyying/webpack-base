@@ -38,10 +38,7 @@ const _webpack = {
         test: /\.js|jsx$/,
         // exclude: /node_modules/,
         include: [
-          path.resolve(__dirname, "demo"),
-          path.resolve(__dirname, "components"),
-          path.resolve(__dirname, "containers"),
-          path.resolve(__dirname, "node_modules/frappe-gantt"),
+          path.resolve(__dirname, "src"),
         ],
         use: [
           {
